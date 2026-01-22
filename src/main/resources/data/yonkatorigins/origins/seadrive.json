@@ -3,10 +3,12 @@
   "description": "top 10 things to do before you die",
   "powers": [
     "origins:water_vulnerability",
-    "yonkatorigins:common/no_eep"
+    "yonkatorigins:common/no_eep",
+    "yonkatorigins:common/fish_nom_nom",
+    "yonkatorigins:drivingsea/cya"
   ],
   "icon": {
     "item": "minecraft:lime_wool"
   },
-  "impact": 3
+  "impact": 1
 }

@@ -1,0 +1,10 @@
+{
+  "type": "yonkatorigins:killbind",
+  "name": "Here's information for:",
+  "description": "⍰⍰⍰⍰⍰ ⍰⍰⍰ ⍰⍰⍰⍰ ⍰⍰⍰⍰⍰⍰ ⍰⍰⍰⍰⍰",
+  "loading_priority": 1,
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  }
+}

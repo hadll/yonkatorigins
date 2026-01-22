@@ -1,0 +1,50 @@
+{
+  "name": "Fish",
+  "description": "You can eat fish to gain fish power :3",
+  "type": "origins:action_on_item_use",
+  "entity_action": {
+    "type": "origins:add_fish",
+    "value": 1
+  },
+  "item_condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:cod"
+        }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:salmon"
+        }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:pufferfish"
+        }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:tropical_fish"
+        }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:cooked_cod"
+        }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:cooked_salmon"
+        }
+      }
+    ]
+  }
+}
