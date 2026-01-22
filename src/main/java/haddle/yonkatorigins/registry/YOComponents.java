@@ -11,7 +11,7 @@ import haddle.yonkatorigins.components.PlayerFishComponent;
 import net.minecraft.util.Identifier;
 
 public class YOComponents implements EntityComponentInitializer {
-    public static final ComponentKey<FishComponent> FISH = ComponentRegistry.getOrCreate(new Identifier(YonkatOrigins.MOD_ID, "fish_component"), FishComponent.class);
+    public static final ComponentKey<FishComponent> FISH = ComponentRegistry.getOrCreate(Identifier.of(YonkatOrigins.MOD_ID, "fish_component"), FishComponent.class);
 
     @Override
     public void registerEntityComponentFactories(EntityComponentFactoryRegistry entityComponentFactoryRegistry) {
