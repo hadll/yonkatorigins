@@ -27,7 +27,7 @@ public class YOActionTypes {
             }));
         register(new ConditionFactory<>(Apoli.identifier("has_fish"), new SerializableData().add("value",  SerializableDataTypes.DOUBLE),
                 (data, entity) -> {
-                    return (YOComponents.FISH.get(entity).getFish() >= (double) data.get("value"));
+                    return (YOComponents.FISH.get(entity).getFish() >= data.getDouble("value"));
                 }));
     }
 }
