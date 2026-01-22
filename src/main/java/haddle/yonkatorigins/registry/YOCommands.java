@@ -8,6 +8,7 @@ import haddle.yonkatorigins.YonkatOrigins;
 import haddle.yonkatorigins.components.FishComponent;
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
 import net.minecraft.command.argument.EnumArgumentType;
+import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
@@ -34,9 +35,12 @@ public class YOCommands {
         CommandRegistrationCallback.EVENT.register((dispatcher, registryAccess, environment) ->
             dispatcher.register(literal("fish")
                 .requires(source -> source.hasPermissionLevel(2))
+                .requires(source -> source.getEntity() instanceof ServerPlayerEntity)
                 .then(literal("get")
                     .executes(context -> {
-                        FishComponent fish = YOComponents.FISH.get(context.getSource());
+                        System.out.println(context.getSource().getPlayer());
+                        FishComponent fish = YOComponents.FISH.get(context.getSource().getPlayer());
+                        System.out.println("You have " + fish.getFish());
                         context.getSource().sendFeedback(
                             () -> Text.literal("You have " + fish.getFish()),
                             false
@@ -48,9 +52,10 @@ public class YOCommands {
                     .then(argument("value", DoubleArgumentType.doubleArg())
                         .executes(context -> {
                             double value = DoubleArgumentType.getDouble(context, "value");
-                            FishComponent fish = YOComponents.FISH.get(context.getSource());
+                            FishComponent fish = YOComponents.FISH.get(context.getSource().getPlayer());
 
                             fish.changeFish(value);
+                            System.out.println("You have " + fish.getFish());
                             context.getSource().sendFeedback(
                                 () -> Text.literal("Fish set to " + fish.getFish()),
                                 false
