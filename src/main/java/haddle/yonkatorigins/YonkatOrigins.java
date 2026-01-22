@@ -1,5 +1,8 @@
 package haddle.yonkatorigins;
 
+import haddle.yonkatorigins.registry.YOCommands;
+import haddle.yonkatorigins.registry.YOComponents;
+import haddle.yonkatorigins.registry.YOPowers;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -15,10 +18,8 @@ public class YonkatOrigins implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
-
-		LOGGER.info("Hello Fabric world!");
+		YOPowers.init();
+		YOCommands.init();
+		LOGGER.info("Finished Loading");
 	}
 }
