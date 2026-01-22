@@ -1,0 +1,12 @@
+{
+  "name": "Stats",
+  "description": "HP: 18\nFISH: 0-50\nSpeed: 1\nSize: 1",
+  "loading_priority": 1,
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.max_health",
+    "operation": "addition",
+    "value": -2
+  },
+  "update_health": true
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Speckle",
+  "description": "arson and dementia",
+  "powers": [
+    "yonkatorigins:spotless/stats",
+    "yonkatorigins:common/fish_nom_nom"
+  ],
+  "icon": {
+    "item": "minecraft:flint_and_steel"
+  },
+  "impact": 3
+}

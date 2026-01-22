@@ -2,10 +2,11 @@
   "name": "Seadrive",
   "description": "top 10 things to do before you die",
   "powers": [
-    "origins:water_vulnerability",
-    "yonkatorigins:common/no_eep",
+    "yonkatorigins:drivingsea/stats",
+    "yonkatorigins:drivingsea/cya",
     "yonkatorigins:common/fish_nom_nom",
-    "yonkatorigins:drivingsea/cya"
+    "origins:water_vulnerability",
+    "yonkatorigins:common/no_eep"
   ],
   "icon": {
     "item": "minecraft:lime_wool"
