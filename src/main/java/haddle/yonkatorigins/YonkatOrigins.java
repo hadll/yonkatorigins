@@ -1,5 +1,6 @@
 package haddle.yonkatorigins;
 
+import haddle.yonkatorigins.registry.YOActionTypes;
 import haddle.yonkatorigins.registry.YOCommands;
 import haddle.yonkatorigins.registry.YOComponents;
 import haddle.yonkatorigins.registry.YOPowers;
@@ -20,6 +21,7 @@ public class YonkatOrigins implements ModInitializer {
 	public void onInitialize() {
 		YOPowers.init();
 		YOCommands.init();
+		YOActionTypes.init();
 		LOGGER.info("Finished Loading");
 	}
 }
