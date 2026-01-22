@@ -24,7 +24,7 @@ public class YOPowers {
     }
 
     public static void init(){
-
+        Registry.register(ApoliRegistries.POWER_FACTORY, KILLBIND.getSerializerId(), KILLBIND);
         YonkatOrigins.LOGGER.info("Powers Registered");
     }
 }
