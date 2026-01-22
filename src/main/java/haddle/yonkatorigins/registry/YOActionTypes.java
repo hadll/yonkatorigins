@@ -23,11 +23,11 @@ public class YOActionTypes {
     public static void init(){
         register(new ActionFactory<>(Apoli.identifier("add_fish"), new SerializableData().add("value", SerializableDataTypes.DOUBLE),
             (data, entity) -> {
-                YOComponents.FISH.get(entity).changeFish(data.getDouble("amount"));
+                YOComponents.FISH.get(entity).changeFish(data.getDouble("value"));
             }));
         register(new ConditionFactory<>(Apoli.identifier("has_fish"), new SerializableData().add("value",  SerializableDataTypes.DOUBLE),
                 (data, entity) -> {
-                    return (YOComponents.FISH.get(entity).getFish() >= (double) data.get("amount"));
+                    return (YOComponents.FISH.get(entity).getFish() >= (double) data.get("value"));
                 }));
     }
 }
