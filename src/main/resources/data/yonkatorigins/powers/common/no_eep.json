@@ -1,0 +1,17 @@
+{
+  "name": "No sleep",
+  "description": "Ya cant sleep bud, at least phantoms don't harras you :p",
+  "type": "origins:multiple",
+  "colon3": {
+    "type": "origins:prevent_sleep",
+    "message": "nice try buddy :3",
+    "set_spawn_point": true
+  },
+  "semicolon3": {
+    "type": "origins:modify_insomnia_ticks",
+    "modifier": {
+      "operation": "set_total",
+      "value": 0
+    }
+  }
+}
