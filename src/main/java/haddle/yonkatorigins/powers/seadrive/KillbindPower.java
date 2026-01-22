@@ -28,6 +28,7 @@ public class KillbindPower extends ActiveCooldownPower {
 
         if (player.getHealth() >= player.getMaxHealth()*0.9 && fish.getFish() >= powerCost) {
             fish.changeFish(-powerCost);
+
             entity.damage(YODamageSources.of(entity.getWorld(), YODamageSources.KILLBIND), Float.MAX_VALUE);
         }
     }

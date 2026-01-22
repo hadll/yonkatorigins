@@ -3,7 +3,8 @@
 	"package": "haddle.yonkatorigins.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"dropInventoryMixin"
+		"ServerPlayerEntityMixin",
+		"PlayerEntityMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
