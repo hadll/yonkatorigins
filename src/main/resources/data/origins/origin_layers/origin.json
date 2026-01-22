@@ -1,6 +1,7 @@
 {
   "origins": [
-    "yonkatorigins:seadrive"
+    "yonkatorigins:seadrive",
+    "yonkatorigins:speckle"
   ],
   "enabled": true
 }

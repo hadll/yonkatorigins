@@ -1,0 +1,6 @@
+{
+  "name": "Stats",
+  "description": "HP: 10 | 15\nFISH: 0-200\nSpeed: 1.25 | 0.75\nSize: .6 | 1",
+  "loading_priority": 1,
+  "type": "origins:simple"
+}
