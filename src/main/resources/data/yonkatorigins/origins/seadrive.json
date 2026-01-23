@@ -2,8 +2,8 @@
   "name": "Seadrive",
   "description": "top 10 things to do before you die",
   "powers": [
-    "yonkatorigins:drivingsea/stats",
-    "yonkatorigins:drivingsea/cya",
+    "yonkatorigins:seadrive/stats",
+    "yonkatorigins:seadrive/cya",
     "yonkatorigins:common/fish_nom_nom",
     "origins:water_vulnerability",
     "yonkatorigins:common/no_eep"

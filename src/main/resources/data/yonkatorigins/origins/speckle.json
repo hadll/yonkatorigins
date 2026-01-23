@@ -2,11 +2,11 @@
   "name": "Speckle",
   "description": "arson and dementia",
   "powers": [
-    "yonkatorigins:spotless/stats",
-    "yonkatorigins:spotless/age",
+    "yonkatorigins:speckle/stats-desc",
+    "yonkatorigins:speckle/age",
     "yonkatorigins:common/fish_nom_nom",
     "yonkatorigins:arsonist/stats",
-    "yonkatorigins:orange/stats"
+    "yonkatorigins:dementia/stats"
   ],
   "icon": {
     "item": "minecraft:flint_and_steel"
