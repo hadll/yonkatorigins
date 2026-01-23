@@ -4,7 +4,7 @@
   "condition": {
     "inverted": true,
     "type": "origins:power_active",
-    "power": "yonkatorigins:spotless/age"
+    "power": "yonkatorigins:speckle/age"
   },
   "type": "origins:conditioned_attribute",
   "modifiers": [

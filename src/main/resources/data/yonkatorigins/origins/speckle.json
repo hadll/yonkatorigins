@@ -5,8 +5,8 @@
     "yonkatorigins:speckle/stats-desc",
     "yonkatorigins:speckle/age",
     "yonkatorigins:common/fish_nom_nom",
-    "yonkatorigins:arsonist/stats",
-    "yonkatorigins:dementia/stats"
+    "yonkatorigins:speckle/arsonist/stats",
+    "yonkatorigins:speckle/dementia/stats"
   ],
   "icon": {
     "item": "minecraft:flint_and_steel"
