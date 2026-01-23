@@ -3,7 +3,10 @@
   "description": "arson and dementia",
   "powers": [
     "yonkatorigins:spotless/stats",
-    "yonkatorigins:common/fish_nom_nom"
+    "yonkatorigins:spotless/age",
+    "yonkatorigins:common/fish_nom_nom",
+    "yonkatorigins:arsonist/stats",
+    "yonkatorigins:orange/stats"
   ],
   "icon": {
     "item": "minecraft:flint_and_steel"
