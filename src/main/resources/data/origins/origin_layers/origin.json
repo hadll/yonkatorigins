@@ -1,7 +1,8 @@
 {
   "origins": [
     "yonkatorigins:seadrive",
-    "yonkatorigins:speckle"
+    "yonkatorigins:speckle",
+    "yonkatorigins:papercraft"
   ],
   "enabled": true
 }

@@ -1,0 +1,16 @@
+{
+  "name": "Papercraft",
+  "description": "And I'm crafting paper alibis\n'Cause I'm too weak for real goodbyes\nWaitin' to be torn in two\nCause I could not tell the truth",
+  "powers": [
+    "yonkatorigins:papercraft/stats",
+    "yonkatorigins:papercraft/fishy_papercraft",
+    "yonkatorigins:papercraft/fishy_paper_airplanecraft",
+    "yonkatorigins:common/fish_nom_nom",
+    "yonkatorigins:papercraft/soggy_paper",
+    "yonkatorigins:papercraft/soggy_paper_being_soggy"
+  ],
+  "icon": {
+    "item": "minecraft:paper"
+  },
+  "impact": 3
+}

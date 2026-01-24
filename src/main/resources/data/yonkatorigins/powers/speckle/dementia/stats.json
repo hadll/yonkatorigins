@@ -14,7 +14,7 @@
     },
     {
       "attribute": "minecraft:generic.movement_speed",
-      "operation": "multiply_total",
+      "operation": "multiply_base",
       "value": -0.25
     }
   ],
