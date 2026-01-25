@@ -7,7 +7,7 @@
     {
       "attribute": "minecraft:generic.max_health",
       "operation": "addition",
-      "value": -19
+      "value": -18
     },
     {
       "attribute": "minecraft:generic.movement_speed",

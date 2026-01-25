@@ -14,7 +14,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "item": "minecraft:paper"
+            "item": "yonkatorigins:fishy_paper"
           }
         }
       },
