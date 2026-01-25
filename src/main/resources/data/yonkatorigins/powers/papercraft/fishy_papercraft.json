@@ -19,8 +19,8 @@
         }
       },
       {
-        "type": "origins:constant",
-        "value": true
+        "type": "origins:has_fish",
+        "value": 50
       }
     ]
   },
