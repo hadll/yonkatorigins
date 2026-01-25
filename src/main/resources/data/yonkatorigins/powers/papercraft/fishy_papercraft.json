@@ -43,7 +43,7 @@
       {
         "type": "origins:give",
         "stack": {
-          "item": "minecraft:paper",
+          "item": "yonkatorigins:fishy_paper",
           "amount": 1
         },
         "preferred_slot": "offhand"
