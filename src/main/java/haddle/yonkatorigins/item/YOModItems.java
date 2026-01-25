@@ -20,9 +20,10 @@ public class YOModItems {
     }
 
     public static void init() {
-        YonkatOrigins.LOGGER.info("Registered Items");
+
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries ->{
             entries.add(Fishy_Paper);
         });
+        YonkatOrigins.LOGGER.info("Registered Items");
     }
 }
