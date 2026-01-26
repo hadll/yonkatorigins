@@ -1,6 +1,7 @@
 package haddle.yonkatorigins.item;
 
 import haddle.yonkatorigins.YonkatOrigins;
+import haddle.yonkatorigins.item.papercraft.FishyPaperItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -13,7 +14,7 @@ import javax.print.DocFlavor;
 
 public class YOModItems {
 
-    public static final Item Fishy_Paper = registerItem( "fishy_paper", new Item(new Item.Settings()));
+    public static final Item Fishy_Paper = registerItem( "fishy_paper", new FishyPaperItem(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(YonkatOrigins.MOD_ID, name), item);
