@@ -2,7 +2,8 @@
   "origins": [
     "yonkatorigins:seadrive",
     "yonkatorigins:speckle",
-    "yonkatorigins:papercraft"
+    "yonkatorigins:papercraft",
+    "yonkatorigins:routiene"
   ],
   "enabled": true
 }
